@@ -6,6 +6,8 @@ declare const endpoints: {
     taxonPath: (id: string) => string;
     countriesPath: () => string;
     countryPath: (iso: string) => string;
+    storesPath: () => string;
+    storePath: (code: string) => string;
     cartPath: () => string;
     cartAddItemPath: () => string;
     cartRemoveItemPath: (id: string) => string;
